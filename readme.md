@@ -10,3 +10,5 @@ Despues de crear un modelos debemos hacer migracion
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+Si queremos ver los modelos con una API, debemos serializar nuestros modelos
