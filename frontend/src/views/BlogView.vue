@@ -10,7 +10,11 @@
       TITULO: {{ post.title }}<br>
       ESTADO: {{ post.status }}<br>
 
-      <router-link :to="{name: 'blogPost', params: {id: post.id, title: post.title, slug: post.slug}}">
+      <router-link :to="{name: 'blogPost', params: {
+        id: post.id,
+        title: post.title,
+        slug: post.slug
+      }}">
         SLUG: {{ post.slug }}<br>
       </router-link>
     </div>
