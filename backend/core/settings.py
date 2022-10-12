@@ -5,7 +5,7 @@ from corsheaders.defaults import default_headers
 import os
 import environ
 
-env = environ.Evn(
+env = environ.Env(
     # predeterminado vene False DEBUG
     DENUG=(bool, False)
 )
