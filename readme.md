@@ -1,3 +1,6 @@
+[CREDENCIALES]
+admin:admin
+
 # [CREAR BACKEND]
 ````shell
 mkdir backend
