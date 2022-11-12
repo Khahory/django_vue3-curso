@@ -15,3 +15,6 @@ python manage.py migrate
 ```
 
 Si queremos ver los modelos con una API, debemos serializar nuestros modelos
+
+
+https://www.youtube.com/watch?v=A12qkUvrzK4&t=3979s
